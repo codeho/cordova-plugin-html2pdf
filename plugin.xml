@@ -21,7 +21,7 @@
     <js-module src="www/Html2pdf.js" name="Html2pdf">
         <clobbers target="html2pdf" /><!-- will be available under window.html2pdf -->
     </js-module>
-
+    <source-file src="src/iText-4.2.0-com.itextpdf.jar" target-dir="src/at/modalog/cordova/plugin/html2pdf" />
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
